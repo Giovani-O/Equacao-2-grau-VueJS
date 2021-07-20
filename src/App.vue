@@ -1,21 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Equacao />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Equacao from './components/Equacao.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Equacao
   }
 }
 </script>
 
 <style>
 #app {
+  background-color: #333;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
